@@ -3,8 +3,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from random import randint as rd
 
 
-bot = Bot(token='5620475208:AAF6Bl7aij6aBgCNSwfOxYpxtSXUbkXYuLk')
-updater = Updater(token='5620475208:AAF6Bl7aij6aBgCNSwfOxYpxtSXUbkXYuLk')
+bot = Bot(token='')
+updater = Updater(token='')
 dispatcher = updater.dispatcher
 
 
