@@ -37,7 +37,7 @@ def weather(update, context):
 
 
 def cancel(update, context):
-    context.bot.send_message(update.effective_chat.id, 'Прощай!!!')
+    context.bot.send_message(update.effective_chat.id, 'Прощай. Bye!!!')
 
 
 start_handler = CommandHandler('start', start)
